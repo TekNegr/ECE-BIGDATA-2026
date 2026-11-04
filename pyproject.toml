@@ -7,10 +7,14 @@ authors = [
     { name = "TekNegr", email = "h.social74@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.37.0",
+]
 
 [project.scripts]
 ece-bigdata-2026 = "ece_bigdata_2026:main"
+dataset-users = "ece_bigdata_2026.dataset_users:main"
+dataset-orders = "ece_bigdata_2026.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
