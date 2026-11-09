@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "duckdb>=2.0.0",
     "faker>=40.37.0",
 ]
 
@@ -15,6 +16,7 @@ dependencies = [
 ece-bigdata-2026 = "ece_bigdata_2026:main"
 dataset-users = "ece_bigdata_2026.dataset_users:main"
 dataset-orders = "ece_bigdata_2026.dataset_orders:main"
+orders-report = "ece_bigdata_2026.orders_report:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
